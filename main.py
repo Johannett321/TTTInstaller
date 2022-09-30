@@ -49,8 +49,9 @@ else:
 
     os.remove(package_file_path)
 
-    print("Done!")
-    wait_for_keypress()
     os.chdir(workdir)
     os.system('pip install -r requirements.txt')
+    print("Done!")
+    wait_for_keypress()
+
     os.system('python3 ' + "main.py")
