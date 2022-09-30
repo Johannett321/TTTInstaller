@@ -1,6 +1,7 @@
 import urllib.request as urlreq
 import time
 import os
+os.system('pip install progressbar')
 import zipfile
 
 import progressbar as progressbar
@@ -27,7 +28,6 @@ def wait_for_keypress():
     input()
 
 
-os.system('pip install progressbar')
 print("Downloading Tic Tac Toe...")
 time.sleep(0.5)
 
