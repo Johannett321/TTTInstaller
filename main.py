@@ -1,7 +1,7 @@
 import urllib.request as urlreq
 import time
 import os
-os.system('pip install progressbar')
+os.system('pip3 install progressbar')
 import zipfile
 
 import progressbar as progressbar
