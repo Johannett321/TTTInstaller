@@ -27,6 +27,7 @@ def wait_for_keypress():
     input()
 
 
+os.system('pip install progressbar')
 print("Downloading Tic Tac Toe...")
 time.sleep(0.5)
 
