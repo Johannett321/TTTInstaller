@@ -50,7 +50,7 @@ else:
     os.remove(package_file_path)
 
     os.chdir(workdir)
-    os.system('pip install -r requirements.txt')
+    os.system('pip3 install -r requirements.txt')
     print("Done!")
     wait_for_keypress()
 
