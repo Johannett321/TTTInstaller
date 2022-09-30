@@ -39,7 +39,7 @@ if os.path.isdir(workdir):
     wait_for_keypress()
 else:
     os.mkdir(workdir)
-    file = urlreq.urlretrieve("https://github.com/Johannett321/CodeTicTacToe/releases/download/v1.0.1/1.0.1.zip",
+    file = urlreq.urlretrieve("https://github.com/Johannett321/CodeTicTacToe/releases/download/v1.0.2/1.0.2.zip",
                               package_file_path, show_progress)
 
     # Unpack
@@ -54,4 +54,4 @@ else:
     print("Done!")
     wait_for_keypress()
 
-    os.system('python3 ' + "main.py")
+    os.system('python3 ' + "Main.py")
