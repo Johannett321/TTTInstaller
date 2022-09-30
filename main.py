@@ -28,7 +28,7 @@ def wait_for_keypress():
     input()
 
 
-print("Downloading Tic Tac Toe...")
+print("Downloading CodeTTT by Johan Svartdal...")
 time.sleep(0.5)
 
 workdir = "CodeTicTacToe"
