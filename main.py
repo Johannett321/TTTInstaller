@@ -26,6 +26,7 @@ def show_progress(block_num, block_size, total_size):
 def wait_for_keypress():
     print("[Press enter to open]", end="")
     input()
+    print("Opening. Please wait...")
 
 
 print("Downloading CodeTTT by Johan Svartdal...")
