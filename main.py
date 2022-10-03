@@ -40,7 +40,7 @@ if os.path.isdir(workdir):
     wait_for_keypress()
 else:
     os.mkdir(workdir)
-    file = urlreq.urlretrieve("https://github.com/Johannett321/CodeTicTacToe/releases/download/v1.0.2/1.0.2.zip",
+    file = urlreq.urlretrieve("https://github.com/Johannett321/CodeTicTacToe/releases/download/v1.0.3/1.0.3.zip",
                               package_file_path, show_progress)
 
     # Unpack
